@@ -255,12 +255,50 @@ body {
 }
 
 
+/* app section -----------and */
 
 
+.benefits__container {
+    max-width: 1296px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
 
 
+.benefits-item {
+    width: 432px;
+    padding: 0px 30px;
+}
+
+.benefits-item__title {
+    font-family: 'Gothic A1';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.benefits-item__text {
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #6B6B6B;
 
 
+}
+
+.benefits-item__icon {
+    width: 75px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
 
 @media (max-width:1336px) {
     .first-content__img {
@@ -298,12 +336,20 @@ body {
 
     }
 
+    .benefits-item {
+        width: 380px;
+    }
+
 }
 
 @media (max-width:920px) {
     .app-block__text {
         margin-bottom: 60px;
 
+    }
+
+    .benefits-item {
+        margin-bottom: 40px;
     }
 }
 
@@ -328,7 +374,8 @@ body {
     .app-block {
         flex-wrap: wrap;
     }
-    .app-order__block-margin{
+
+    .app-order__block-margin {
         margin-bottom: 80px;
     }
 
@@ -338,7 +385,12 @@ body {
 
     }
 
- 
+    .order {
+        order: 1;
+    }
+
+
+
 
 }
 
